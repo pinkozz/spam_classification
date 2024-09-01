@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+
+{% block title %}
+  Spam Classifier
+{% endblock %}
+
+{% block body %}
+  {% if not prediction %}
+  <h1>Spam Classifier</h1>
+  {% block container %}
+    <form action="/" method="post">
+      <textarea type="text" name="message" placeholder="Enter your message"></textarea>
+      <br>
+      <button class="form-btn" type="submit">Predict</button>
+    </form>
+  {% endblock %}
+  {% else %}
+  <h1>{{prediction}}</h1>
+
+  {% endif %}
+
+{% endblock %}
