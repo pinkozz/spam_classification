@@ -1,6 +1,8 @@
 ## Spam Classification
 An ML-integrated tool for classifying spam text from non-spam. Simply paste any text into the text area and click "submit". You will receive the prediction immediately, so give it a try!
 
+https://github.com/user-attachments/assets/0e4a1046-7b5c-45ea-b639-c1062ce5c3a6
+
 # Table of contents
 • [Set Up](https://github.com/pinkozz/spam_classification#installation)
 
